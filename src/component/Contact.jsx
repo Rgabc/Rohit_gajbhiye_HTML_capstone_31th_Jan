@@ -59,7 +59,12 @@ const Contact=()=>{
 </form>
 
     </div>
+    
+<div className="contact1">
+    
 
+
+</div>
 
 
 

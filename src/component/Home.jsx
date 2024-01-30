@@ -36,7 +36,7 @@ const Home=()=>{
     const[cartItm,setCartItm]=useState([{
     "id": 10,
     "productName": "Pork - Ham Hocks - Smoked",
-    "image": "http://dummyimage.com/156x100.png/5fa2dd/ffffff",
+    "image": "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/41YorSgCIcL._SX300_SY300_QL70_FMwebp_.jpg",
     "price": 166,
     "quantity":1,
     "className":"size"
@@ -153,6 +153,17 @@ const Home=()=>{
     <span className="visually-hidden">Next</span>
   </button>
 </div>
+<div className="off">
+  <div className="card1">
+    <h3 className="name"></h3>
+< img src=  "https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_849526-T1/images/G/31/img21/MA2024/Accessoriesfest/GW/Hero/PC/Sunglasses_Caps_and_more_Prime_3000x1200._CB583072119_.jpg"/>
+         
+  </div>
+</div>
+<br/>
+
+
+
 {data.map((Product)=>{
     return(<>
     <div className="container">
@@ -190,6 +201,16 @@ const Home=()=>{
     </>)
 
 })}
+<div className="container2">
+  <div className="card2">
+    
+    <img src="https://www.digitalcommerce360.com/wp-content/uploads/2017/05/Toys-R-Us-brings-its-e-commerce-operation-in-house.jpg"/>
+    <h3 className="name2">30%off</h3>
+  </div>
+
+</div>
+<br/>
+
 <div className="container">
 
     <div className={seemore<1? "moreDetails":"lessDetails"}>
@@ -198,6 +219,8 @@ const Home=()=>{
          <img className="card-img-top" src={moreDtls.image} alt={Product.productName} />
          <h5 class="card-title">{moreDtls.productName}</h5>
         <p class="card-text">Rs. {moreDtls.price}/-</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi similique ipsum at nostrum, harum aperiam culpa dicta delectus quod consectetur quo? Praesentium ullam libero similique animi autem repudiandae commodi molestiae asperiores, sit suscipit nostrum voluptates blanditiis laborum odit vero molestias culpa eius quas magnam et ad? Recusandae ipsa velit non voluptates nam dolore consequuntur vero itaque harum nobis. Culpa rem praesentium incidunt asperiores laborum quaerat nesciunt suscipit quibusdam eius, modi neque, voluptatem alias illum minima at deserunt, officia consectetur?</p>
+        
     </div>
    
 

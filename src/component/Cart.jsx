@@ -58,7 +58,7 @@ const Cart=()=>{
     <NavBar/>
     {cartItems.map((Product)=>{
     return(<>
-    <div className="container">
+    <div className="container2" style ={{backgroundColor:"black",}}>
       <img className="cartImg" src={Product.image} alt={Product.productName} />
       <div className="card-body">
         <h5 className="cartName">{Product.productName}</h5>

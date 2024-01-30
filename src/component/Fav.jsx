@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from "react";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 const Fav=()=>{
     const getdata=()=>{
@@ -66,10 +67,14 @@ const Fav=()=>{
       </div>
     </div></div>
     
+    
     </>)
 
 })}
 
+    
+    
+    <Footer/>
     </>)
 }
 
