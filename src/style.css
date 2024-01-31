@@ -54,7 +54,7 @@
     width: 6rem;
     position: absolute;
     right: 28%;
-    transform: translateY(-14.5rem)
+    transform: translate(3rem,-15rem)
 }
 
 
@@ -69,17 +69,17 @@
 }
 
 .cartName {
-    transform: translate(16rem, -5rem);
+    transform: translate(7rem, -3.5rem);
 }
 
 .cal {
-    transform: translate(40rem, -8rem);
+    transform: translate(35rem,-9rem);
 }
 
-.cal button {
+/* .cal button {
     width: 5rem;
     height: 2rem
-}
+} */
 
 .red {
     color: red;
@@ -97,6 +97,7 @@
     width: 15%;
     text-align: center;
     position: absolute;
+    position: fixed;
     right: 0;
     top: 0;
     transform: translate(-5rem, 5rem)
@@ -129,7 +130,7 @@
 
     text-align: center;
     position: absolute;
-    margin-top: 1.5rem;
+    margin-top: 4rem;
     margin-left: 10rem;
 }
 
@@ -248,14 +249,25 @@ ul a {
 
 
 .contact1 {
-    height: 2800px;
-    width: 1600px;
-    /* border: 1px solid black; */
-    transform: translate(0rem, -30rem);
+    height: 50rem;
+    /* width: 1600px; */
+    border: 1px solid black;
+    transform: translate(0rem, 0rem);
     background: url("https://wallpaperaccess.com/full/5576035.jpg") no-repeat;
-    background-size: contain;
+    background-size:cover;
+    background-position: center;
     /* position: relative; */
 }
-.container2{
-    height: 700px;
+.container-sm{
+    transform: translate(-10rem,5rem);
+    border-bottom: solid rgb(34, 32, 32) 1px;
+    height: 9rem;
+    width:40rem
+}
+.cartImg{
+    height:7rem;
+    transform: translateY(1rem);
+}
+.nav-item{
+    margin-top: -1rem;
 }
